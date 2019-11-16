@@ -62,13 +62,8 @@ Go back to your `main.py` tab and in that file, at the top, add the following li
 ```
 from draw import draw_hangman, get_tech_word
 ```
-This gives us access to the `draw_hangman` and `get_tech_word` functions in `main.py`. Try using it by calling the draw function with any number of guesses between 0 and 6 and see what happens. eg: `draw_hangman(4)` Try getting a random tech word and printing it out `print(get_tech_word())`
 
-2. Make a function that takes in a word and a letter as paremeters. It checks if the letter is in the word and returns True if it is and False otherwise. Try calling it, passing in a word and a letters and see if it returns what you expect.
-```python
-def letter_in_word(word, letter):
-  return letter in word
-```
+2. This gives us access to the `draw_hangman` and `get_tech_word` functions in `main.py`. Try using it by calling the draw function with any number of guesses between 0 and 6 and see what happens. eg: `draw_hangman(4)` Try getting a random tech word and printing it out `print(get_tech_word())`
 
 3. Make a list that keeps track of what letters have been guessed incorrectly and another list that keeps track of what letters have been guessed correctly.
 ```python
